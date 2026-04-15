@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <section>
         <nav>
-            <img src="./assets/FES.svg" alt="">
+            <img class="logo"src="./assets/FES.svg" alt="">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#discord">Discord</a></li>
@@ -16,27 +17,31 @@
             </ul>
         </nav>
         <header>
-            <div>
-                <h1>Best place to learn frontend</h1>
-                <p>Go from being an absolute beginner to being a pro with a simplified process</p>
-                <button>Start now</button>
+            <div class="row">
+                <div>
+                    <h1>Best place to learn frontend</h1>
+                    <p>Go from being an absolute beginner to being a pro with a simplified process</p>
+                    <button>Start now</button>
+                </div>
+                <figure>
+                    <img src="./assets/laptop.png" alt="">
+                </figure>
             </div>
-            <figure>
-                <img src="./assets/laptop.png" alt="">
-            </figure>
         </header>
     </section>
 
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aliquam eos iste delectus ex distinctio odit rerum maxime voluptas maiores aspernatur ipsa mollitia veritatis quibusdam recusandae natus laboriosam, deleniti ipsam?</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aliquam eos iste delectus ex distinctio odit rerum maxime voluptas maiores aspernatur ipsa mollitia veritatis quibusdam recusandae natus laboriosam, deleniti ipsam?</p>
+            <div class="section__description">
+                <div class="section__description__wrapper">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aliquam eos iste delectus ex distinctio odit rerum maxime voluptas maiores aspernatur ipsa mollitia veritatis quibusdam recusandae natus laboriosam, deleniti ipsam?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aliquam eos iste delectus ex distinctio odit rerum maxime voluptas maiores aspernatur ipsa mollitia veritatis quibusdam recusandae natus laboriosam, deleniti ipsam?</p>
+                </div>
+                <figure>
+                    <img src="./assets/about.jpg" alt="">
+                </figure class="about__img--wrapper">
             </div>
-            <figure>
-                <img src="./assets/about.jpg" alt="">
-            </figure>
         </section>
 
         <section id="discord">
@@ -45,7 +50,7 @@
                 <img src="./assets/discord.png" alt="">
             </figure>
             <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aliquam eos iste delectus ex distinctio odit rerum maxime voluptas maiores aspernatur ipsa mollitia veritatis quibusdam recusandae natus laboriosam, deleniti ipsam?</p>
+                <p class="subheader">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aliquam eos iste delectus ex distinctio odit rerum maxime voluptas maiores aspernatur ipsa mollitia veritatis quibusdam recusandae natus laboriosam, deleniti ipsam?</p>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae aliquam eos iste delectus ex distinctio odit rerum maxime voluptas maiores aspernatur ipsa mollitia veritatis quibusdam recusandae natus laboriosam, deleniti ipsam?</p>
             </div>
         </section>
